@@ -11,9 +11,15 @@
   
 
 body{
-  background-color: var(--bg);  
-  height: 100vh;
+  background-color: var(--bg2);  
+  height: 85vh;
   width: 100vw;
+}
+
+.skilltree{
+    height: 100%;
+    width: 90%;
+    object-fit: contain;
 }
 
 .nav-bar{
@@ -22,7 +28,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 15%;
+    height: 10%;
     width: 100vw;
 
 }
@@ -62,11 +68,11 @@ main{
 
 }
 
-/* .main__left-section{
+.main__left-section{
     width: 50vw;
     height: 70vh;
 
-} */
+}
 
 .main__right-section{
     /* width: 40vw;
@@ -99,3 +105,4 @@ main{
         background-color: pink;
     }
 } */
+
